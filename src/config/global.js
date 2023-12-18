@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      '<em>Testing</em> en videojuegos y emprendimiento tecnológico',
+    descripcionCurso:
+      'Dentro de este componente formativo, el aprendiz aprenderá las diferentes técnicas para la realización de pruebas en videojuegos. Como se automatizan y los informes y correcciones que las mismas generan. Así mismo, dentro de este componente está el emprendimiento orientado a industria de videojuegos donde el aprendiz entenderá como puede monetizar sus proyectos y las diferentes alternativas que encontrará dentro del ámbito nacional e internacional.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {

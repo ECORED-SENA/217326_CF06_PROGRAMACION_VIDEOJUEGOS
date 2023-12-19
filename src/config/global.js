@@ -56,6 +56,18 @@ export default {
         titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Titulo de primer nivel',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Titulo de primer nivel',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {

@@ -199,9 +199,186 @@
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.5  ¿Cómo funciona la prueba de juegos?
     p.mb-5(data-aos='fade-right') Como mencionamos anteriormente, las pruebas de juegos implican más que solo iniciar un juego y jugarlo de principio a fin para asegurarse de que funcione sin problemas. Hay docenas de complejidades en el proceso de prueba del juego, así que echemos un vistazo más de cerca.
-    .titulotres
+    .titulotres.mb-4
       h3.mb-0 Etapas de la prueba del juego
-
+    p.mb-5(data-aos='fade-right') La estructura general del proceso de control de calidad es simple, esto es:
+    .mn.p-4(style="background-color:  #ADB3F3").mb-5
+      .row.justify-content-center
+        .col-lg-10
+          .tarjeta.bg-2.p-5(style="margin: -2rem 0")
+            .row.justify-content-center.align-items-center
+              .col-lg-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/13.svg', alt='Texto alternativo: La imagen presenta un diagrama circula, cada segmento representa una fase distinta en el ciclo de pruebas de un videojuego. El ciclo comienza con la fase de prueba inicial y avanza a través de la retroalimentación, la implementación de mejoras y la repetición del proceso según sea necesario.')
+              .col-lg-6
+                p Sin embargo, #[span.morado ¿dónde encaja la revisión de control de calidad en el gran esquema de desarrollo?] Durante las fases iniciales de desarrollo (planificación y producción), los ingenieros de control de calidad tienden a tener muy poca participación. Estas etapas son manejadas principalmente por gerentes de proyecto, expertos en desarrollo comercial y desarrolladores. Aun así, se les puede pedir comentarios sobre cosas como la lógica y el flujo del juego, el diseño de UX y el diseño de interacción.
+                  br
+                  br
+                  |La mayor parte del trabajo realizado por los ingenieros comienza cuando está lista una compilación jugable de la aplicación. Esto a veces se denomina prueba alfa de videojuegos. 
+                  br
+                  br
+                  |La revisión se lleva a cabo dentro de los límites de una empresa, con el objetivo de solucionar la mayoría de los problemas y brindar una experiencia de juego completa y de alta calidad
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-1.col-4(data-aos="fade-right"): img(src='@/assets/curso/temas/14.svg', alt='')
+      .col-lg-11(data-aos="fade-left")
+        p.mb-0 Algunas compañías optan por agregar también juegos de prueba beta al expediente. Con este enfoque, se pide a personas ajenas a la empresa que realicen una vista previa y una prueba beta de los juegos y lanzamientos de PC en otras plataformas (las consolas también son comunes). Esto brinda una comprensión mucho mejor de la impresión general que se puede esperar de los jugadores que la que una empresa podría obtener de unos pocos ingenieros de control de calidad.
+    Separador
+    #t_1_6.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.6  Métricas clave de las pruebas funcionales de control de calidad
+    p.mb-5(data-aos='fade-right') La retroalimentación sobre la calidad del juego no es algo formulado ampliamente como “El juego funciona sin problemas”. Incluye cifras concretas, estadísticas y terminología que ofrece información mucho más útil.
+      br
+      br
+      |Repasemos algunas de las métricas clave de control de calidad del juego:
+    .bg-3.mn.p-4.mb-5
+      .contenido(style="margin: -3rem 0")
+        .row.justify-content-center.mb-5
+          .col-lg-3.mb-lg-0.mb-3
+            .tarjeta.tarjeta-up
+              .tarjeta-up_portada
+                img(src='@/assets/curso/temas/15.svg', alt='') 
+                .tarjeta.rounded-pill.d-inline-block.bg-white.p-3
+                  h4.mb-0.mx-2.text-center Eficacia de la prueba
+              .tarjeta-up_contenido.p-4
+                img.m-auto.mb-3(src='@/assets/curso/temas/20.svg', alt='' style="width: 85px")   
+                .text-center
+                  h4 Eficacia de la prueba
+                  p Esta métrica se recopila en función de docenas de otras medidas, incluida la cantidad de pruebas realizadas, la cantidad de errores encontrados/corregidos y la cantidad de problemas que persisten después de la corrección. 
+          .col-lg-3.mb-lg-0.mb-3
+            .tarjeta.tarjeta-up
+              .tarjeta-up_portada
+                img(src='@/assets/curso/temas/16.svg', alt='') 
+                .tarjeta.rounded-pill.d-inline-block.bg-white.p-3
+                  h4.mb-0.mx-2.text-center Variables económicas
+              .tarjeta-up_contenido.p-4
+                img.m-auto.mb-3(src='@/assets/curso/temas/21.svg', alt='' style="width: 85px")   
+                .text-center
+                  h4 Variables económicas
+                  p Los cambios aplicados durante las pruebas se analizan para determinar cuántos problemas se solucionaron, qué nuevos problemas surgieron y cuántos, y otros cambios estadísticamente significativos a lo largo del tiempo.4   
+          .col-lg-3.mb-lg-0.mb-3
+            .tarjeta.tarjeta-up
+              .tarjeta-up_portada
+                img(src='@/assets/curso/temas/17.svg', alt='') 
+                .tarjeta.rounded-pill.d-inline-block.bg-white.p-3
+                  h4.mb-0.mx-2.text-center Métricas del equipo
+              .tarjeta-up_contenido.p-4
+                img.m-auto.mb-3(src='@/assets/curso/temas/22.svg', alt='' style="width: 85px")   
+                .text-center
+                  h4 Métricas del equipo
+                  p En este caso, se mide el trabajo del equipo de pruebas, tanto como unidad única como individualmente.
+        .row.justify-content-center
+          .col-lg-3.mb-lg-0.mb-3
+            .tarjeta.tarjeta-up
+              .tarjeta-up_portada
+                img(src='@/assets/curso/temas/18.svg', alt='') 
+                .tarjeta.rounded-pill.d-inline-block.bg-white.p-3
+                  h4.mb-0.mx-2.text-center Variables económicas
+              .tarjeta-up_contenido.p-4
+                img.m-auto.mb-3(src='@/assets/curso/temas/23.svg', alt='' style="width: 85px")   
+                .text-center
+                  h4 Variables económicas
+                  p Esta métrica se refiere al costo general de las pruebas y el costo por corrección de errores, la variación del costo planificado y real, y la diferencia entre el tiempo planificado y el tiempo real.       
+          .col-lg-3.mb-lg-0.mb-3
+            .tarjeta.tarjeta-up
+              .tarjeta-up_portada
+                img(src='@/assets/curso/temas/19.svg', alt='') 
+                .tarjeta.rounded-pill.bg-white.p-3
+                  h4.mb-0.mx-2.text-center  Y muchos otros
+              .tarjeta-up_contenido.p-4
+                img.m-auto.mb-3(src='@/assets/curso/temas/24.svg', alt='' style="width: 85px")   
+                .text-center
+                  h4 Y muchos otros
+                  p  Dependiendo de a quién le pregunte, puede haber hasta cientos de métricas que una empresa registra y analiza.      
+    Separador
+    #t_1_7.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.7  Informes de errores 
+    p.mb-5(data-aos='fade-right') Los informes de errores #[span.morado son una parte indeleble de la revisión de control de calidad] y representan la información/los comentarios recopilados en función de las pruebas de los ingenieros que se pueden utilizar para realizar mejoras adicionales.
+      br
+      br
+      |Un informe de error tradicional incluirá los siguientes detalles:    
+            
+    .mn.bg-1.p-5.adorno
+      .adorno--3.d-none.d-lg-block: img(src='@/assets/curso/temas/adorno3.png', alt='')
+      .adorno--4.d-none.d-lg-block: img(src='@/assets/curso/temas/adorno1.png', alt='')
+      .contenido 
+        .row.justify-content-center.mb-5
+          .col-lg-10
+            img(src='@/assets/curso/temas/26.svg', alt='La figura muestra un Informe de errores en cinco pasos: descripción del problema, información general de la plataforma, instrucciones para reproducir el error, comparación de resultados reales y esperados, y solicitud de detalles adicionales para su solución.')
+    Separador
+    #t_1_8.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.8  Tipos principales de métodos de prueba de juegos
+    p.mb-5(data-aos='fade-right') Cada empresa tiene sus propias percepciones sobre qué pruebas son necesarias para un juego, y la lista incluso puede variar de un proyecto a otro. Aun así, podemos delinear las pruebas más comunes, dividiéndolas en funcionales (pruebas de funcionalidad del juego) y no funcionales (asociadas con el rendimiento general y UX), veamos esto de una manera más detallada:
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tabla
+          .tabla-b__header(style="background-color: #8979F3")
+            h5.mb-0 Principales métodos de testing
+          table
+            tr(style="background-color: #E7E4FD").text-center
+              td.fw-bold Pruebas funcionales
+              td.fw-bold Pruebas no funcionales
+            tr.text-center
+              td Componente/módulo (comprobación del rendimiento de las unidades de software más pequeñas).
+              td Rendimiento (velocidad de carga del juego en tiempo real).
+            tr.text-center
+              td Integración (encontrar defectos en interfaces e interacciones de componentes).
+              td Carga/Estrés (comprobación del rendimiento en condiciones de gran actividad/tráfico de usuarios).
+            tr.text-center
+              td Humo (determinando la estabilidad de construcción).
+              td Instalación (qué tan bien se guarda el juego en diferentes dispositivos).
+            tr.text-center
+              td Regresión (verificación de correcciones de errores).
+              td Usabilidad (conveniencia de los mecanismos de juego).
+            tr.text-center
+              td Localización (verificación de la consistencia del contenido traducido).
+              td Recuperación (cómo funciona la aplicación después de fallar).
+            tr.text-center
+              td Seguridad y control de acceso (identificación de vulnerabilidades y verificación de permisos de usuarios).
+              td
+    Separador
+    #t_1_9.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.9  Cómo funcionan las pruebas en diferentes plataformas
+    p.mb-5(data-aos='fade-right') Los juegos a menudo se lanzan en varias plataformas a la vez e incluso dentro del alcance de una plataforma, los evaluadores deben asegurarse de que todo funcione en diferentes dispositivos. Por lo tanto, hay muchas peculiaridades en lo que respecta a la revisión de control de calidad en diferentes plataformas, esto se entenderá de manera más detallada a continuación:
+    TabsB.color-acento-botones.mb-5
+      .p-4(titulo=" PC / Ordenador Personal" :icono="require('@/assets/curso/temas/27.svg')" style="background-color: #E8EAFF")
+        .row
+          .col-lg-9.mb-4.mb-lg-0
+            h5 PC / Ordenador Personal
+            p Los dispositivos de escritorio tienden a tener más potencia y más flexibilidad en términos de resolución de pantalla/gráficos. Por lo tanto, si un juego se crea con varias opciones de personalización y optimización en mente, gran parte del trabajo de prueba del juego de PC se centra en asegurarse de que cada jugador con el hardware compatible con el juego pueda elegir las opciones de personalización (o configurarlas automáticamente) para aprovechar al máximo la experiencia.
+              br
+              br
+              |Además, los juegos de escritorio a menudo aprovechan los teclados grandes al admitir docenas de combinaciones de teclas. El trabajo de un probador de juegos de computadora es asegurarse de que estos comandos funcionan de manera consistente en computadoras con diferentes nombres y composiciones de teclas (por ejemplo, dispositivos macOS, Linux y Windows).
+          .col-lg-3: img(src='@/assets/curso/temas/31.png', alt='')
+      .p-4(titulo=" Consola" :icono="require('@/assets/curso/temas/28.svg')" style="background-color: #E8EAFF")
+        .row
+          .col-lg-9.mb-4.mb-lg-0
+            h5 Consola
+            p Los dos aspectos únicos más importantes de la revisión por parte de un probador de consolas de juegos son: 1) garantizar el cumplimiento y la compatibilidad con los estándares de los fabricantes de consolas; 2) brindar una experiencia de juego uniforme en todas las plataformas y generaciones de consolas. En el primer caso, Xbox, Sony y Nintendo tienen pautas estrictas sobre los parámetros y el contenido de los juegos que se pueden ejecutar en su plataforma, por lo que los evaluadores deben asegurarse de que el producto cumpla con todos los requisitos.
+              br
+              br
+              |En lo que respecta a la jugabilidad multiplataforma y multi generacional, recientemente hemos visto un ejemplo de trabajo deficiente por parte de un probador de videojuegos de PlayStation con el lanzamiento de Cyberpunk 2077 en PS4. Los desarrolladores tienen un trabajo muy difícil para asegurarse que su aplicación se ejecute tanto en las consolas de generación anterior más débiles, como en la próxima generación, sin mencionar los lanzamientos multiplataforma que son varias veces más complejos.
+              br
+              br
+              |A su vez, un probador de juegos funcional puede pasar meses eliminando los errores y problemas de rendimiento que surgen antes y después del lanzamiento.
+          .col-lg-3: img(src='@/assets/curso/temas/32.png', alt='')
+      .p-4(titulo=" Móvil" :icono="require('@/assets/curso/temas/29.svg')" style="background-color: #E8EAFF")
+        .row
+          .col-lg-9.mb-4.mb-lg-0
+            h5 Móvil
+            p Una de las mayores dificultades en el desarrollo para dispositivos móviles es hacer uso del espacio de pantalla limitado, por lo que cualquier persona que pruebe juegos móviles de AB debe trabajar duro para verificar que los jugadores puedan acceder a todas las funciones del juego incluso en las pantallas de teléfonos inteligentes más pequeñas.
+              br
+              br
+              |Otra peculiaridad de estas aplicaciones es que suelen tener funciones multijugador y de redes sociales, que son notoriamente difíciles de desarrollar correctamente. Por lo tanto, las pruebas de carga de juegos móviles y la evaluación multiplataforma son parte integral de la experiencia de control de calidad móvil tradicional.
+              br
+              br
+              |Por último, es más probable que las aplicaciones móviles utilicen código y elementos de fuente abierta que otras plataformas, lo que las deja vulnerables a piratas informáticos y actores malintencionados. Los desarrolladores a menudo desconocen estos problemas, pero el probador de control de calidad del juego móvil debe estar atento para encontrar y cubrir cualquier vulnerabilidad.
+          .col-lg-3: img(src='@/assets/curso/temas/33.png', alt='')
+      .p-4(titulo=" VR/AR/MR" :icono="require('@/assets/curso/temas/30.svg')" style="background-color: #E8EAFF")
+        .row
+          .col-lg-9.mb-4.mb-lg-0
+            h5 VR/AR/MR
+            p Las aplicaciones inmersivas presentan desafíos únicos para los probadores, pero que se pueden superar. Por ejemplo, el elemento de movimiento de la mayoría de los juegos de realidad virtual puede causar mareos y mareos en algunos jugadores, lo que los desarrolladores a menudo no tienen en cuenta. 
+              br
+              br
+              |Además de eso, quienes prueban los juegos de realidad virtual deben asegurarse de que el juego transmita adecuadamente las recomendaciones de seguridad, como despejar el área donde el usuario está jugando. De lo contrario, existe la posibilidad de que se lastimen.
+          .col-lg-3: img(src='@/assets/curso/temas/34.png', alt='')
 
 
 
@@ -256,4 +433,14 @@ export default {
   background-position: 100%
   background-repeat: no-repeat
   background-size: cover
+.bg-2
+  background-image: url('../assets/curso/temas/bg-2.svg')
+  background-position: 100%
+  background-repeat: no-repeat
+  background-size: cover
+.bg-3
+  background-image: url('../assets/curso/temas/bg-3.svg')
+  background-position: 100%
+  background-repeat: no-repeat
+  background-size: contain
 </style>

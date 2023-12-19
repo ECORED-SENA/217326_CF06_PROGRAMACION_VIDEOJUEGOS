@@ -18,7 +18,7 @@
     transform: translateY(0px)
 
 .mn
-  margin: -3rem 0
+  margin: 0 -3rem
 .img-tarjeta
   @media (min-width: $bp-min-lg)
     margin-left: -3rem
@@ -29,3 +29,48 @@ span.resaltado
   font-weight: bold
 .banner-interno__fondo
   background-image: url('../assets/curso/portada/banner-interno.png') !important
+.adorno
+  position: relative
+  &--1
+    position: absolute
+    right: 0
+    z-index: 1
+    width: 252px
+    bottom: 0
+    transform: translateY(30%)
+  &--2
+    position: absolute
+    left: 0
+    z-index: 1
+    width: 50px
+    bottom: 0
+    transform: translateY(30%)
+  .contenido
+    position: relative
+    z-index: 2
+.titulotres
+  background-color: #1425dd
+  padding: 7px
+  border-radius: 50rem
+  position: relative
+  display: inline-block
+  h3
+    color: white
+    margin-left: 4rem
+    margin-right: 2rem
+  &:before
+    height: 100%
+    left: 0
+    bottom: 0
+    position: absolute
+    content: url('../assets/curso/temas/ciontrol.png')
+    transform: scale(.7) translateY(-30%) translateX(-30%)
+.divslyde
+  h4
+    color: #1425dd
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #f7df3f
+  opacity: 1
+  border: 0
+b.azul
+  color: #1425dd

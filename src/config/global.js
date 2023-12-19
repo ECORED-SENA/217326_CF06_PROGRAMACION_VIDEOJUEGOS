@@ -9,11 +9,23 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/a1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/a2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/a3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/a4.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/a5.png'),
       },
     ],
   },
@@ -33,13 +45,54 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: '¿Por qué es necesario probar los juegos?',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: '¿Por qué es necesario probar los juegos?',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Métodos de prueba de juegos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: '¿Qué es la automatización de pruebas de juegos?',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: '¿Qué hacen los QA testers de juegos?',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: '¿Cómo funciona la prueba de juegos?',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo:
+              'Métricas clave de las pruebas funcionales de control de calidad',
+            hash: 't_1_6',
+          },
+          {
+            numero: '1.7',
+            titulo: 'Informes de errores',
+            hash: 't_1_7',
+          },
+          {
+            numero: '1.8',
+            titulo: 'Tipos principales de métodos de prueba de juegos',
+            hash: 't_1_8',
+          },
+          {
+            numero: '1.9',
+            titulo: 'Cómo funcionan las pruebas en diferentes plataformas',
+            hash: 't_1_9',
           },
         ],
       },
@@ -47,26 +100,65 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Cómo iniciar las pruebas o testing en un videojuego',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Utilizando el Framework Test Runner - Unit testing en Unity',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Pruebas del sistema',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Pruebas de portabilidad',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Pruebas de compatibilidad',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Pruebas de rendimiento',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Pruebas de aceptación',
+            hash: 't_4_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Emprendimiento Tecnológico',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Emprendimiento Tecnológico',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Emprendimiento Tecnológico',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Monetización',
+            hash: 't_5_3',
+          },
+        ],
       },
     ],
     subMenu: [

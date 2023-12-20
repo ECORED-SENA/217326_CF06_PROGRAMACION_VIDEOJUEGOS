@@ -208,32 +208,92 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Cómo iniciar las pruebas o “testing” en un videojuego. ',
+      referencia: 'Unity Manual. (s.f.). Unity Test “Framework” overview. ',
+      tipo: 'Otro',
+      link:
+        'https://docs.unity3d.com/Packages/com.unity.test-framework@1.3/manual/index.html ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Pruebas del sistema. ',
+      referencia: 'Kodeco. (2019). Introduction To Unity Unit “testing” ',
+      tipo: 'Otro',
+      link: 'https://www.kodeco.com/9454-introduction-to-unity-unit-testing ',
+    },
+    {
+      tema: 'Emprendimiento tecnológico',
+      referencia:
+        'TEDx. (2019, diciembre 10). Plataforma de emprendimiento tecnológico | Mario Valle | Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Ma4MgfuZpV0',
+    },
+    {
+      tema: 'Monetización',
+      referencia:
+        'JAndGar. (2023, mayo 13). Monetizacion de los Videojuegos en la Actualidad- Podcast. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=hpfQ5W57djA',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: '<em>Ad hoc</em>',
+      significado:
+        ' que es apropiado, adecuado o especialmente dispuesto para un determinado fin.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: '<em>CPU</em>',
+      significado:
+        'una unidad central de procesamiento o CPU, es una pieza de “hardware” que permite que tu computadora interactúe con todas las aplicaciones y programas instalados.',
+    },
+    {
+      termino: '<em>Framework</em>',
+      significado:
+        'es un esquema o marco de trabajo que ofrece una estructura base para elaborar un proyecto con objetivos específicos, una especie de plantilla que sirve como punto de partida para la organización y desarrollo de <em>“software”</em>.',
+    },
+    {
+      termino: '<em>QA</em>',
+      significado:
+        'un QA <em>(Quality Assurance)</em> o analista QA es el profesional responsable de asegurar la calidad del “<em> software”</em> y de prevenir fallos en él.',
+    },
+    {
+      termino: '<em>SetUp</em>',
+      significado:
+        'es una herramienta de los sistemas operativos y los programas informáticos que permite configurar diversas opciones de acuerdo a las necesidades del usuario.',
+    },
+    {
+      termino: 'Teastear / <em>testing</em>',
+      significado:
+        'testear es obtener la información necesaria para mejorar el sistema que se está probando, pero también para mejorar los propios procesos de desarrollo y de pruebas. Hay diferentes objetivos en el <em>testing</em>: Buscar los defectos. Ganar confianza respecto al nivel de calidad.',
+    },
+    {
+      termino: '<em>Test Runner</em>',
+      significado:
+        'un test runner es una utilidad que nos permite escribir y correr tests para una aplicación. Existen gran variedad de tests runner como por ejemplo mocha.',
+    },
+    {
+      termino: '<em>UX</em>',
+      significado:
+        'el diseño UX se refiere al término «diseño de experiencia de usuario», mientras que UI significa «diseño de interfaz de usuario».',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Awad, W. (2021). Game “testing” Automation Guidance.',
+      link:
+        'https://www.theseus.fi/bitstream/handle/10024/505977/Game%20Testing%20Automation%20Guidance.pdf?sequence=2&isAllowed=y',
+    },
+    {
+      referencia:
+        'Da Silva Lima, G. et al. (2021). Devops methodology in game development with Unity 3D.',
+      link:
+        'https://www.ihci-conf.org/wp-content/uploads/2021/07/04_202105C029_Lima.pdf ',
+    },
+    {
+      referencia:
+        'Koepke, B, Pelletier, B., Adair, D., Jhawar, R., Macaulay, I. & Bielecki, T. (2013). Agile Game Development.',
+      link:
+        'http://kremer.cpsc.ucalgary.ca/courses/seng403/W2013/papers/05GameDevelopment.pdf',
     },
   ],
   creditos: [
@@ -257,8 +317,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Carlos Andrés Cortes',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Diseño e Innovación Tecnológica Industrial- Regional Risaralda',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Diseñadora instruccional',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -268,13 +334,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Camilo Andres Bolaño Rey',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -286,7 +352,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Camilo Andres Bolaño Rey',
           cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',

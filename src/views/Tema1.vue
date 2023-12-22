@@ -11,7 +11,7 @@
         .row.justify-content-center.align-items-center
 
           .col-lg-7.mb-lg-0.mb-3
-            p.mb-0 Las empresas de desarrollo de juegos deben invertir lo suficiente en las pruebas de los videojuegos para garantizar que el producto final no tenga errores o bugs. Eso haría decaer la experiencia del jugador y la parte central de los juegos es la experiencia del consumidor. Con una buena experiencia de usuario, un juego prosperará. Hay millones de juegos en la App Store y la Play Store, pero ser un ganador entre esta dura competencia requiere mucha paciencia y trabajo. 
+            p.mb-0 Las empresas de desarrollo de juegos deben invertir lo suficiente en las pruebas de los videojuegos para garantizar que el producto final no tenga errores o #[em bugs]. Eso haría decaer la experiencia del jugador y la parte central de los juegos es la experiencia del consumidor. Con una buena experiencia de usuario, un juego prosperará. Hay millones de juegos en la App Store y la Play Store, pero ser un ganador entre esta dura competencia requiere mucha paciencia y trabajo. 
               br
               br
               |Con tantos juegos llegando al mercado diariamente, hay que ser diferente para destacar y dejar huella. Los niveles complejos no son suficientes para que los usuarios se enganchen a un juego y lo recomienden a sus amigos, ya que si el juego no funciona como los usuarios esperan, no tardarán en desinstalarlo y pasarse a otro.
@@ -23,7 +23,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2.svg', alt='')
       .col-lg-9
-        p.mb-0 Los encargados de las pruebas de control de calidad en un estudio de videojuegos (QA, Quality Assurance) buscan los problemas y los puntos débiles que se pueden pulir antes de lanzar el producto al público, además, deben asegurarse, a través de diversas técnicas, que aspectos como la conectividad emocional con el juego o el nivel de diversión estén en óptimas condiciones.
+        p.mb-0 Los encargados de las pruebas de control de calidad en un estudio de videojuegos (QA, #[em Quality Assurance]) buscan los problemas y los puntos débiles que se pueden pulir antes de lanzar el producto al público, además, deben asegurarse, a través de diversas técnicas, que aspectos como la conectividad emocional con el juego o el nivel de diversión estén en óptimas condiciones.
           br
           br
           |A continuación, detallamos algunas de las técnicas más comunes utilizadas por los estudios de videojuegos y los QA testers especialistas en pruebas de control de calidad de juegos:
@@ -35,10 +35,10 @@
             .row
               .col-lg-6.mb-4.mb-md-0
                 h4 Pruebas de Funcionalidad
-                p La función de esta técnica de pruebas de juegos es comprobar si el videojuego funciona de acuerdo con las especificaciones. Algunos de los problemas que sigue la técnica de pruebas de funcionalidad son los gráficos genéricos, la interfaz, la estabilidad o los problemas mecánicos. Además, con esta técnica se pueden resolver errores como el freezing, el crashing o los bloqueos de progresión.
+                p La función de esta técnica de pruebas de juegos es comprobar si el videojuego funciona de acuerdo con las especificaciones. Algunos de los problemas que sigue la técnica de pruebas de funcionalidad son los gráficos genéricos, la interfaz, la estabilidad o los problemas mecánicos. Además, con esta técnica se pueden resolver errores como el #[em freezing], el #[em crashing] o los bloqueos de progresión.
                   br
                   br
-                  |Los testers del juego están atentos a cualquier fallo gráfico en la interfaz, como gráficos ausentes, colores faltantes, problemas de ubicación o problemas de animación y recortes. Después de identificar todos los fallos y errores, los testers del juego hacen una lista y los envían a los desarrolladores del juego para que los arreglen. Una vez que los desarrolladores resuelven los problemas, envían el juego al equipo de control de calidad para que lo vuelvan a probar.
+                  |Los #[em testers] del juego están atentos a cualquier fallo gráfico en la interfaz, como gráficos ausentes, colores faltantes, problemas de ubicación o problemas de animación y recortes. Después de identificar todos los fallos y errores, los testers del juego hacen una lista y los envían a los desarrolladores del juego para que los arreglen. Una vez que los desarrolladores resuelven los problemas, envían el juego al equipo de control de calidad para que lo vuelvan a probar.
               .col-lg-6: img(src='@/assets/curso/temas/2.png', alt='')
           .p-5.py-md-5(titulo="Pruebas Combinatorias").bg-white
             .row
@@ -62,7 +62,7 @@
                 p Esta técnica de prueba de juegos te ayuda a validar si la interfaz de usuario es compatible con todos los tamaños de pantalla en los que se puede jugar. Cada dispositivo es único y puede presentar diferentes problemas, como el uso del #[em hardware], los detalles gráficos, el tamaño de la pantalla o las aplicaciones de fondo. 
                   br
                   br
-                  |Tras la verificación, el videojuego debe cumplir los requisitos esenciales del #[em software], el hardware y los gráficos. Realizar las pruebas de compatibilidad en dispositivos físicos es la mejor manera de determinar el rendimiento con precisión y conocer la experiencia del usuario final.
+                  |Tras la verificación, el videojuego debe cumplir los requisitos esenciales del #[em software], el #[em hardware] y los gráficos. Realizar las pruebas de compatibilidad en dispositivos físicos es la mejor manera de determinar el rendimiento con precisión y conocer la experiencia del usuario final.
               .col-lg-6: img(src='@/assets/curso/temas/5.png', alt='')
           .p-5.py-md-5(titulo="Pruebas de Cleanroom").bg-white
             .row
@@ -123,7 +123,7 @@
                   h4.mb-0 Descripción
                   p Este método tiene como objetivo garantizar que un juego sea totalmente utilizable y agradable para los jugadores de diferentes países y regiones. En primer lugar, todas las mismas características y funcionalidades deben ser accesibles en diferentes ubicaciones (a menos que se planifique lo contrario). En segundo lugar, el contenido debe adaptarse a los idiomas y culturas donde se presenta.
                   h4.mb-0 Cuándo se necesita
-                  p Este tipo de prueba es vital si planeas lanzar tu juego en varios idiomas, o si planeas hacer que el contenido esté disponible en diferentes regiones. Por lo tanto, es preferible que los evaluadores tengan un amplio conocimiento de los idiomas/culturas asociados antes de comenzar a evaluar el software.
+                  p Este tipo de prueba es vital si planeas lanzar tu juego en varios idiomas, o si planeas hacer que el contenido esté disponible en diferentes regiones. Por lo tanto, es preferible que los evaluadores tengan un amplio conocimiento de los idiomas/culturas asociados antes de comenzar a evaluar el #[em software].
                 .divslyde
                   h4.mb-0 Subtipos
                   p Pruebas de juego de control de acceso de seguridad
@@ -153,10 +153,10 @@
       .col-lg-5
         p Aunque este enfoque es más conveniente que pedirles a los probadores que completen los mismos niveles muchas veces de forma manual, es bastante difícil crear herramientas de automatización adaptadas a una aplicación individual. 
         .tarjeta(style="background-color: #1425dd").p-4
-          p.mb-0.text-white Según una encuesta de empresas de desarrollo de juegos, la mayoría prefiere probar manualmente sus juegos, citando la falta de recursos y tiempo para crear software de automatización.
+          p.mb-0.text-white Según una encuesta de empresas de desarrollo de juegos, la mayoría prefiere probar manualmente sus juegos, citando la falta de recursos y tiempo para crear #[em software] de automatización.
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.4. ¿Qué hacen los QA testers de juegos?
+      h2 1.4 ¿Qué hacen los QA testers de juegos?
     p.mb-5 Muchos jóvenes sueñan con convertirse en probadores de juegos porque pueden jugar todo el día, pero esto solo rasca la superficie de las responsabilidades del puesto. Aparte de revisar la mecánica del juego, tienen tareas menos románticas y dinámicas como:
     .mn(style="background-color: #fae2fd ").p-4.my-5
       .row.justify-content-center
@@ -207,7 +207,7 @@
         .col-lg-10
           .tarjeta.bg-2.p-5(style="margin: -2rem 0")
             .row.justify-content-center.align-items-center
-              .col-lg-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/13.svg', alt='Texto alternativo: La imagen presenta un diagrama circula, cada segmento representa una fase distinta en el ciclo de pruebas de un videojuego. El ciclo comienza con la fase de prueba inicial y avanza a través de la retroalimentación, la implementación de mejoras y la repetición del proceso según sea necesario.')
+              .col-lg-6.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/13.svg', alt='La imagen presenta un diagrama circula, cada segmento representa una fase distinta en el ciclo de pruebas de un videojuego. El ciclo comienza con la fase de prueba inicial y avanza a través de la retroalimentación, la implementación de mejoras y la repetición del proceso según sea necesario.')
               .col-lg-6
                 p Sin embargo, #[span.morado ¿dónde encaja la revisión de control de calidad en el gran esquema de desarrollo?] Durante las fases iniciales de desarrollo (planificación y producción), los ingenieros de control de calidad tienden a tener muy poca participación. Estas etapas son manejadas principalmente por gerentes de proyecto, expertos en desarrollo comercial y desarrolladores. Aun así, se les puede pedir comentarios sobre cosas como la lógica y el flujo del juego, el diseño de UX y el diseño de interacción.
                   br
@@ -251,7 +251,7 @@
                 img.m-auto.mb-3(src='@/assets/curso/temas/21.svg', alt='' style="width: 85px")   
                 .text-center
                   h4 Variables económicas
-                  p Los cambios aplicados durante las pruebas se analizan para determinar cuántos problemas se solucionaron, qué nuevos problemas surgieron y cuántos, y otros cambios estadísticamente significativos a lo largo del tiempo.4   
+                  p Los cambios aplicados durante las pruebas se analizan para determinar cuántos problemas se solucionaron, qué nuevos problemas surgieron y cuántos, y otros cambios estadísticamente significativos a lo largo del tiempo.  
           .col-lg-3.mb-lg-0.mb-3
             .tarjeta.tarjeta-up
               .tarjeta-up_portada
@@ -341,7 +341,7 @@
         .row
           .col-lg-9.mb-4.mb-lg-0
             h5 PC / Ordenador Personal
-            p Los dispositivos de escritorio tienden a tener más potencia y más flexibilidad en términos de resolución de pantalla/gráficos. Por lo tanto, si un juego se crea con varias opciones de personalización y optimización en mente, gran parte del trabajo de prueba del juego de PC se centra en asegurarse de que cada jugador con el hardware compatible con el juego pueda elegir las opciones de personalización (o configurarlas automáticamente) para aprovechar al máximo la experiencia.
+            p Los dispositivos de escritorio tienden a tener más potencia y más flexibilidad en términos de resolución de pantalla/gráficos. Por lo tanto, si un juego se crea con varias opciones de personalización y optimización en mente, gran parte del trabajo de prueba del juego de PC se centra en asegurarse de que cada jugador con el #[em hardware] compatible con el juego pueda elegir las opciones de personalización (o configurarlas automáticamente) para aprovechar al máximo la experiencia.
               br
               br
               |Además, los juegos de escritorio a menudo aprovechan los teclados grandes al admitir docenas de combinaciones de teclas. El trabajo de un probador de juegos de computadora es asegurarse de que estos comandos funcionan de manera consistente en computadoras con diferentes nombres y composiciones de teclas (por ejemplo, dispositivos macOS, Linux y Windows).

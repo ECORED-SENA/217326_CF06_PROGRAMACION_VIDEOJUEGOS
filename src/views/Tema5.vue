@@ -16,8 +16,8 @@
     .video-adorno.color--1.mn.p-5.mb-5
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/1WmXWuErOEU?si=fAeOra8Z95vfnTeJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Emprendimiento tecnológico
     Separador
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 5.1  El proceso emprendedor
@@ -25,8 +25,8 @@
     .video-adorno.color--2.mn.p-5.mb-5
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/jM1a_jE-Ckg?si=rFWhO21sAF5jXxs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. El proceso emprendedor
     Separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 5.2  Identificación y evaluación de oportunidades de negocio
@@ -34,8 +34,8 @@
     .video-adorno.color--3.mn.p-5.mb-5
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/jNcTzeP3J8A?si=XroBf_PFUmo23aN3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Identificación y evaluación de oportunidades de negocio
     Separador|
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 5.3  Monetización
@@ -43,8 +43,8 @@
     .video-adorno.color--4.mn.p-5.mb-5
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/68dZk5-EDXA?si=d9rKQwv9GdANt7Dp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Monetización
 
 
 </template>

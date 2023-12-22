@@ -100,13 +100,14 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Cómo iniciar las pruebas o testing en un videojuego',
+        titulo: 'Cómo iniciar las pruebas o <em>testing</em> en un videojuego',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Utilizando el Framework Test Runner - Unit testing en Unity',
+        titulo:
+          'Utilizando el <em>Framework Test Runner - Unit testing</em> en Unity',
         desarrolloContenidos: true,
       },
       {
@@ -244,7 +245,7 @@ export default {
     {
       termino: '<em>CPU</em>',
       significado:
-        'una unidad central de procesamiento o CPU, es una pieza de “hardware” que permite que tu computadora interactúe con todas las aplicaciones y programas instalados.',
+        'una unidad central de procesamiento o CPU, es una pieza de “<em>hardware</em>” que permite que tu computadora interactúe con todas las aplicaciones y programas instalados.',
     },
     {
       termino: '<em>Framework</em>',
@@ -269,7 +270,7 @@ export default {
     {
       termino: '<em>Test Runner</em>',
       significado:
-        'un test runner es una utilidad que nos permite escribir y correr tests para una aplicación. Existen gran variedad de tests runner como por ejemplo mocha.',
+        'es una utilidad que nos permite escribir y correr tests para una aplicación. Existen gran variedad de <em>tests runner</em> como por ejemplo mocha.',
     },
     {
       termino: '<em>UX</em>',
@@ -278,6 +279,16 @@ export default {
     },
   ],
   referencias: [
+    {
+      referencia:
+        'Pantaleo. G. (2016). <em>Calidad en el Desarrollo de Software 2.</em> Edición. Alfa.Omega',
+      link: '',
+    },
+    {
+      referencia:
+        'Ries, E. (2012). <em>El método de Lean Startup</em>. Deusto.',
+      link: '',
+    },
     {
       referencia: 'Awad, W. (2021). Game “testing” Automation Guidance.',
       link:
@@ -346,8 +357,20 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Wilson Andrés Arenales Cáceres ',
+          cargo: 'Storyboard e Ilustración ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada ',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

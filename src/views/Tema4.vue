@@ -33,8 +33,8 @@
           p Para realizar y analizar las pruebas de rendimiento se hizo uso de la herramienta Profiler de Unity. El Profiler ayuda a optimizar el juego. Se trata de un reporte en ejecución que calcula el tiempo empleado en la ejecución distintas áreas del juego o los recursos consumidos, esto lo puede revisar de manera más detallada en el video que se expone a continuación:
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            figcaption Video. 
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/_ci-F4sSovs?si=tMSRkq4LXCYUkr3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            figcaption Video. Profiler pruebas de rendimiento
         .p-4.py-5(style="margin-top: -15px"   titulo="Pruebas de aceptación").bg-white
           .row
             .col-lg-6.mb-4.mb-lg-0

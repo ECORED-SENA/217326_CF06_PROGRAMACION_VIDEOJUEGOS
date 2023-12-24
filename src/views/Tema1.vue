@@ -300,7 +300,8 @@
       .contenido 
         .row.justify-content-center.mb-5
           .col-lg-10
-            img(src='@/assets/curso/temas/26.svg', alt='La figura muestra un Informe de errores en cinco pasos: descripción del problema, información general de la plataforma, instrucciones para reproducir el error, comparación de resultados reales y esperados, y solicitud de detalles adicionales para su solución.')
+            img.d-lg-block.d-none(src='@/assets/curso/temas/26.svg', alt='La figura muestra un Informe de errores en cinco pasos: descripción del problema, información general de la plataforma, instrucciones para reproducir el error, comparación de resultados reales y esperados, y solicitud de detalles adicionales para su solución.')
+            img.d-block.d-lg-none(src='@/assets/curso/temas/26a.svg', alt='La figura muestra un Informe de errores en cinco pasos: descripción del problema, información general de la plataforma, instrucciones para reproducir el error, comparación de resultados reales y esperados, y solicitud de detalles adicionales para su solución.')
     Separador
     #t_1_8.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.8  Tipos principales de métodos de prueba de juegos

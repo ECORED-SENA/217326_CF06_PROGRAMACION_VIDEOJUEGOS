@@ -26,7 +26,7 @@
         p.mb-0 Los encargados de las pruebas de control de calidad en un estudio de videojuegos (QA, #[em Quality Assurance]) buscan los problemas y los puntos débiles que se pueden pulir antes de lanzar el producto al público, además, deben asegurarse, a través de diversas técnicas, que aspectos como la conectividad emocional con el juego o el nivel de diversión estén en óptimas condiciones.
           br
           br
-          |A continuación, detallamos algunas de las técnicas más comunes utilizadas por los estudios de videojuegos y los QA testers especialistas en pruebas de control de calidad de juegos:
+          |A continuación, detallamos algunas de las técnicas más comunes utilizadas por los estudios de videojuegos y los QA #[em testers] especialistas en pruebas de control de calidad de juegos:
     .bg-1.mn.adorno.p-5
       .adorno--2: img(src='@/assets/curso/temas/adorno2.png', alt='')
       .contenido
@@ -38,13 +38,13 @@
                 p La función de esta técnica de pruebas de juegos es comprobar si el videojuego funciona de acuerdo con las especificaciones. Algunos de los problemas que sigue la técnica de pruebas de funcionalidad son los gráficos genéricos, la interfaz, la estabilidad o los problemas mecánicos. Además, con esta técnica se pueden resolver errores como el #[em freezing], el #[em crashing] o los bloqueos de progresión.
                   br
                   br
-                  |Los #[em testers] del juego están atentos a cualquier fallo gráfico en la interfaz, como gráficos ausentes, colores faltantes, problemas de ubicación o problemas de animación y recortes. Después de identificar todos los fallos y errores, los testers del juego hacen una lista y los envían a los desarrolladores del juego para que los arreglen. Una vez que los desarrolladores resuelven los problemas, envían el juego al equipo de control de calidad para que lo vuelvan a probar.
+                  |Los #[em testers] del juego están atentos a cualquier fallo gráfico en la interfaz, como gráficos ausentes, colores faltantes, problemas de ubicación o problemas de animación y recortes. Después de identificar todos los fallos y errores, los #[em testers] del juego hacen una lista y los envían a los desarrolladores del juego para que los arreglen. Una vez que los desarrolladores resuelven los problemas, envían el juego al equipo de control de calidad para que lo vuelvan a probar.
               .col-lg-6: img(src='@/assets/curso/temas/2.png', alt='')
           .p-5.py-md-5(titulo="Pruebas Combinatorias").bg-white
             .row
               .col-lg-6.mb-4.mb-md-0
                 h4 Pruebas Combinatorias
-                p Con esta técnica de pruebas de juegos, se puede comprobar inicialmente cuántas pruebas necesita el juego. La técnica de pruebas combinatorias analiza y escudriña todas las salidas y entradas del juego para que pueda obtener una imagen clara sobre las distintas combinaciones y resultados concebibles. Este hallazgo tiene importantes implicaciones para las pruebas, ya que sugiere que probar combinaciones de parámetros puede proporcionar una detección de fallos muy eficaz.
+                p Con esta técnica de pruebas de juegos, se puede comprobar inicialmente cuántas pruebas necesita el juego. La técnica de pruebas combinatorias, analiza y escudriña todas las salidas y entradas del juego para que pueda obtener una imagen clara sobre las distintas combinaciones y resultados concebibles. Este hallazgo tiene importantes implicaciones para las pruebas, ya que sugiere que probar combinaciones de parámetros puede proporcionar una detección de fallos muy eficaz.
               .col-lg-6: img(src='@/assets/curso/temas/3.png', alt='')
           .p-5.py-md-5(titulo="Pruebas Ad Hoc").bg-white
             .row
@@ -71,13 +71,13 @@
                 p La técnica de pruebas de cleanroom válida y mejora el rendimiento de la consistencia y la fiabilidad del #[em software] de juegos. Mediante el uso de las pruebas de cleanroom, se puede identificar la causa principal detrás de los #[em bugs] y pequeños errores. 
                   br
                   br
-                  |El plan es que los testers de juegos creen pruebas que jueguen al juego igual que los jugadores. Lo que significa que les resultará más fácil averiguar qué hacen los jugadores.
+                  |El plan es que los #[em testers] de juegos creen pruebas que jueguen al juego igual que los jugadores. Lo que significa que les resultará más fácil averiguar qué hacen los jugadores.
               .col-lg-6: img(src='@/assets/curso/temas/6.png', alt='')
           .p-5.py-md-5(titulo="Pruebas de Regresión").bg-white
             .row
               .col-lg-6.mb-4.mb-md-0
                 h4 Pruebas de Regresión
-                p El propósito de esta técnica de prueba del juego es comprobar de nuevo si las funciones del juego operan de forma óptima, lo que ayuda a controlar la calidad que es tan importante para la experiencia de los jugadores. En la práctica, los testers de juegos vuelven a comprobar el juego y comparan los resultados actuales con los obtenidos en las pruebas. Quieren ver si se han producido nuevos errores debido a los cambios y ver si hay algún fallo antiguo.
+                p El propósito de esta técnica de prueba del juego es comprobar de nuevo si las funciones del juego operan de forma óptima, lo que ayuda a controlar la calidad que es tan importante para la experiencia de los jugadores. En la práctica, los #[em testers] de juegos vuelven a comprobar el juego y comparan los resultados actuales con los obtenidos en las pruebas. Quieren ver si se han producido nuevos errores debido a los cambios y ver si hay algún fallo antiguo.
               .col-lg-6: img(src='@/assets/curso/temas/7.png', alt='')
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -156,7 +156,7 @@
           p.mb-0.text-white Según una encuesta de empresas de desarrollo de juegos, la mayoría prefiere probar manualmente sus juegos, citando la falta de recursos y tiempo para crear #[em software] de automatización.
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.4 ¿Qué hacen los QA testers de juegos?
+      h2 1.4 ¿Qué hacen los QA #[em testers] de juegos?
     p.mb-5 Muchos jóvenes sueñan con convertirse en probadores de juegos porque pueden jugar todo el día, pero esto solo rasca la superficie de las responsabilidades del puesto. Aparte de revisar la mecánica del juego, tienen tareas menos románticas y dinámicas como:
     .mn(style="background-color: #fae2fd ").p-4.my-5
       .row.justify-content-center
@@ -215,7 +215,7 @@
                   |La mayor parte del trabajo realizado por los ingenieros comienza cuando está lista una compilación jugable de la aplicación. Esto a veces se denomina prueba alfa de videojuegos. 
                   br
                   br
-                  |La revisión se lleva a cabo dentro de los límites de una empresa, con el objetivo de solucionar la mayoría de los problemas y brindar una experiencia de juego completa y de alta calidad
+                  |La revisión se lleva a cabo dentro de los límites de una empresa, con el objetivo de solucionar la mayoría de los problemas y brindar una experiencia de juego completa y de alta calidad.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-1.col-4(data-aos="fade-right"): img(src='@/assets/curso/temas/14.svg', alt='')
       .col-lg-11(data-aos="fade-left")
@@ -310,7 +310,7 @@
       .col-lg-10
         .tabla
           .tabla-b__header(style="background-color: #8979F3")
-            h5.mb-0 Principales métodos de testing
+            h5.mb-0 Principales métodos de #[em testing]
           table
             tr(style="background-color: #E7E4FD").text-center
               td.fw-bold Pruebas funcionales

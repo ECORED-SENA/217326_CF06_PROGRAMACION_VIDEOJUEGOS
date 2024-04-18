@@ -193,7 +193,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF06_ 217326_DU.pdf',
+        download: 'downloads/CF06_217326_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -298,7 +298,7 @@ export default {
       referencia:
         'Da Silva Lima, G. et al. (2021). Devops methodology in game development with Unity 3D.',
       link:
-        'https://www.ihci-conf.org/wp-content/uploads/2021/07/04_202105C029_Lima.pdf ',
+        'https://www.iadisportal.org/digital-library/devops-methodology-in-game-development-with-unity3d',
     },
     {
       referencia:

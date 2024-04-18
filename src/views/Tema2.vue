@@ -11,7 +11,7 @@
         p.mb-0 En teoría, cualquiera puede aprender a probar un juego, incluso si no está capacitado para ser un ingeniero de control de calidad. Sin embargo, tener éxito y eficacia en las pruebas es otra cuestión, y los proyectos a gran escala generalmente necesitan evaluadores calificados para tener éxito. Por lo tanto, puede considerar contratar a estos profesionales o delegar las pruebas a una empresa con amplia experiencia en el campo.
           br
           br
-          |Cualquiera que sea la opción que elija, el proceso de prueba será más o menos el mismo. Entendemos que las docenas de tipos de pruebas que enumeramos son únicas y requieren #[em software], metodología y conocimientos diferentes, pero las etapas de las pruebas suelen ser uniformes como se observa a continuación:
+          |Cualquiera que sea la opción que elija, el proceso de prueba será más o menos el mismo. Entendemos que las docenas de tipos de pruebas que enumeramos son únicas y requieren #[em software], metodología y conocimientos diferentes, pero las etapas de las pruebas suelen ser uniformes, como se observa a continuación:
       .col-lg-5.col-7.d-lg-block.d-none(data-aos="fade-left"): img(src='@/assets/curso/temas/35.png', alt='')
     .mn.p-5.bg-4.mb-4
       .row.justify-content-center

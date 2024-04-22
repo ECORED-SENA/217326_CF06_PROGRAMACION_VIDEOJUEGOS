@@ -50,7 +50,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: '¿Por qué es necesario probar los juegos?',
+            titulo: 'Tipos de técnicas de pruebas de juegos',
             hash: 't_1_1',
           },
           {
@@ -65,7 +65,7 @@ export default {
           },
           {
             numero: '1.4',
-            titulo: '¿Qué hacen los QA testers de juegos?',
+            titulo: '¿Qué hacen los QA <em>testers</em> de juegos?',
             hash: 't_1_4',
           },
           {
@@ -115,28 +115,7 @@ export default {
         numero: '4',
         titulo: 'Pruebas del sistema',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '4.1',
-            titulo: 'Pruebas de portabilidad',
-            hash: 't_4_1',
-          },
-          {
-            numero: '4.2',
-            titulo: 'Pruebas de compatibilidad',
-            hash: 't_4_2',
-          },
-          {
-            numero: '4.3',
-            titulo: 'Pruebas de rendimiento',
-            hash: 't_4_3',
-          },
-          {
-            numero: '4.4',
-            titulo: 'Pruebas de aceptación',
-            hash: 't_4_4',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema5',
@@ -146,12 +125,12 @@ export default {
         subMenu: [
           {
             numero: '5.1',
-            titulo: 'Emprendimiento Tecnológico',
+            titulo: 'El proceso emprendedor',
             hash: 't_5_1',
           },
           {
             numero: '5.2',
-            titulo: 'Emprendimiento Tecnológico',
+            titulo: 'Identificación y evaluación de oportunidades de negocio',
             hash: 't_5_2',
           },
           {
